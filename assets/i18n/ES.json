@@ -6,7 +6,8 @@
  		"historial": "Historial De Trabajo",
 		"edu": "Educación",
  		"hab": "Habilidades",
- 		"ref": "Referencias"
+ 		"ref": "Referencias",
+		"h_title": "Portafolio Sergio Echigoyen"
 
 	},
 	"intro": {
@@ -18,7 +19,7 @@
 
 		"a_titulo": "Acerca De Mí!",
 		"a_des1": "Hola mi nombre es Sergio Echigoyen, soy un Estudiante de Ingeniería en ciencias y sistemas, cursando el penúltimo año, con asignaturas dedicadas al manejo de bases de datos, redes de computadora, SQL, lenguajes de programación, gestión y administración de proyectos, tutorías de computación y matemática. Teniendo valores basados en el compromiso, el orden, disciplina y la eficiencia. Buscando obtener experiencia en el área laboral para poder aplicar mis conocimientos y mis aptitudes.",
-		"a_des2": "Soy una persona interesada en la tecnología, tratando de aprender constantemente cosas nuevas y estar a la vanguardia. He tenido la dicha de poder trabajar en lo que a mi me gusta y he tenido buenos maestros y compañeros que me han permitido trabajar y guiarlos, logrando así tener éxito en nuestros proyectos. He incursionado en el música creando mis propias composiciones y logrando aplicar la tecnología en el proceso."
+		"a_des2": "Soy una persona interesada en la tecnología, tratando de aprender constantemente cosas nuevas y estar a la vanguardia. He tenido la dicha de poder trabajar en lo que a mi me gusta y he tenido buenos maestros y compañeros que me han permitido trabajar y guiarlos, logrando así tener éxito en nuestros proyectos. He incursionado en la música creando mis propias composiciones y logrando aplicar la tecnología en el proceso."
 	
 	},
 	"infome": {
