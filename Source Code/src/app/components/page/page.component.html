@@ -4,7 +4,7 @@
       		<nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
         			<div class="container">
           				<div class="navbar-translate">
-            					<a class="navbar-brand" pageScroll href="#" rel="tooltip">EG CV</a>
+            					<a class="navbar-brand" pageScroll href="#" rel="tooltip"> {{ 'header.h_title' | translate }}</a>
             						<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
               aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
              						</button>
@@ -12,25 +12,25 @@
           				<div class="collapse navbar-collapse justify-content-end" id="navigation">
             					<ul class="navbar-nav">
               						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('acerca')">{{ 'header.about' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('acerca')">{{ 'header.about' | translate }}</button>
               						</li>    
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('informacion')">{{ 'header.info' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('informacion')">{{ 'header.info' | translate }}</button>
               						</li>    
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('historial')">{{ 'header.historial' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('historial')">{{ 'header.historial' | translate }}</button>
               						</li>   
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('educacion')">{{ 'header.edu' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('educacion')">{{ 'header.edu' | translate }}</button>
               						</li> 
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('habilidades')">{{ 'header.hab' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('habilidades')">{{ 'header.hab' | translate }}</button>
               						</li>   
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="Scroll('referencias')">{{ 'header.ref' | translate }}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="Scroll('referencias')">{{ 'header.ref' | translate }}</button>
               						</li>      
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" (click)="ChangeLang()">{{Lang}}</a>
+                						<button type="button" class="nav-link smooth-scroll" (click)="ChangeLang()">{{Lang}}</button>
               						</li>           
             					</ul>
           				</div>
@@ -180,7 +180,7 @@
 
 <div class="section" id="educacion">
 	<div class="container cc-education">
-     		<div class="h4 text-center mb-4 title">{{ 'educa.e_titulo' | translate }}
+     		<div class="h4 text-center mb-4 title"><i class="fa fa-university" aria-hidden="true"></i> {{ 'educa.e_titulo' | translate }}
 		</div>
         			<div class="card">
         				<div class="row">
