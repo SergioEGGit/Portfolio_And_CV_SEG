@@ -4,7 +4,7 @@
       		<nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
         			<div class="container">
           				<div class="navbar-translate">
-            					<a class="navbar-brand" href="#" rel="tooltip">EG CV</a>
+            					<a class="navbar-brand" pageScroll href="#" rel="tooltip">EG CV</a>
             						<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
               aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
              						</button>
@@ -12,22 +12,22 @@
           				<div class="collapse navbar-collapse justify-content-end" id="navigation">
             					<ul class="navbar-nav">
               						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#acerca">{{ 'header.about' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('acerca')">{{ 'header.about' | translate }}</a>
               						</li>    
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#informacion">{{ 'header.info' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('informacion')">{{ 'header.info' | translate }}</a>
               						</li>    
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#historial">{{ 'header.historial' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('historial')">{{ 'header.historial' | translate }}</a>
               						</li>   
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#educacion">{{ 'header.edu' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('educacion')">{{ 'header.edu' | translate }}</a>
               						</li> 
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#habilidades">{{ 'header.hab' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('habilidades')">{{ 'header.hab' | translate }}</a>
               						</li>   
 						<li class="nav-item">
-                						<a class="nav-link smooth-scroll" href="#referencias">{{ 'header.ref' | translate }}</a>
+                						<a class="nav-link smooth-scroll" (click)="Scroll('referencias')">{{ 'header.ref' | translate }}</a>
               						</li>      
 						<li class="nav-item">
                 						<a class="nav-link smooth-scroll" (click)="ChangeLang()">{{Lang}}</a>

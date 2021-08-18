@@ -11,8 +11,8 @@ export class PageComponent implements OnInit {
 
   isSound: boolean;
  audio = new Audio();
-public activeLang = 'ES';
- Lang = "Español";
+public activeLang = 'EN';
+ Lang = "English";
  t_Title_Me:string = "";
  t_Title_Ref:string = "";
  t_Email:string = "";
@@ -31,13 +31,18 @@ public activeLang = 'ES';
      
   }
 
+Scroll(id:string) {
+  let el = document.getElementById(id);
+  el.scrollIntoView();
+}
+
 ChangeCV(): string 
 {
 
 	if(this.activeLang == "ES") 
 	{
 	
-		return "https://drive.google.com/file/d/1sVkaTxwdsxFLfd_pgkRlp8q0djH4geJJ/view?usp=sharing";			
+		return "https://drive.google.com/file/d/1W-xG84-lvBzA786gI2Tf1rusOuszBSrE/view?usp=sharing";			
 
 	}
  	else if(this.activeLang == "EN")
@@ -85,7 +90,7 @@ Contact(email: string, phone: string, type: string):void {
 			text: this.t_Email + email + ' ' + this.t_Phone + phone,
   			width: 600,
   			padding: '3em',
- 			background: '#fff url(/assets/backcontact.jpg)',
+ 			background: '#fff url(assets/backcontact.jpg)',
   			backdrop: `
     				rgba(0,0,123,0.4)
     				left top
@@ -102,7 +107,7 @@ Contact(email: string, phone: string, type: string):void {
 			text: this.t_Email + email + ' ' + this.t_Phone + phone,
   			width: 600,
   			padding: '3em',
-  			background: '#fff url(/assets/backcontact.jpg)',
+  			background: '#fff url(assets/backcontact.jpg)',
   			backdrop: `
     				rgba(0,0,123,0.4)
     				left top
