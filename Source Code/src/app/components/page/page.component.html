@@ -1,0 +1,367 @@
+<!----------------------------------------------------------------------- Header -------------------------------------------------------------------------->
+<header>
+	<div class="profile-page sidebar-collapse">
+      		<nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        			<div class="container">
+          				<div class="navbar-translate">
+            					<a class="navbar-brand" href="#" rel="tooltip">EG CV</a>
+            						<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+             						</button>
+         				</div>
+          				<div class="collapse navbar-collapse justify-content-end" id="navigation">
+            					<ul class="navbar-nav">
+              						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#acerca">{{ 'header.about' | translate }}</a>
+              						</li>    
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#informacion">{{ 'header.info' | translate }}</a>
+              						</li>    
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#historial">{{ 'header.historial' | translate }}</a>
+              						</li>   
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#educacion">{{ 'header.edu' | translate }}</a>
+              						</li> 
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#habilidades">{{ 'header.hab' | translate }}</a>
+              						</li>   
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" href="#referencias">{{ 'header.ref' | translate }}</a>
+              						</li>      
+						<li class="nav-item">
+                						<a class="nav-link smooth-scroll" (click)="ChangeLang()">{{Lang}}</a>
+              						</li>           
+            					</ul>
+          				</div>
+       			 </div>
+      		</nav>
+    	</div>
+  </header>
+
+<!------------------------------------------------------------------------------------ Perfil Inicial ------------------------------------------------------------------------------>
+<div class="profile-page">
+	<div class="wrapper">        		
+		<div class="page-header page-header-small">               			
+			<div class="container">
+               				<div class="content-center">
+					<div class="cc-profile-image">
+                                        				<a (click)="PlayMusic('Sakuya')">
+							<img src="assets/profile.jpg" alt="Image" />
+						</a>
+                    				</div>
+                    				<div class="h2 title">Sergio Alexander Echigoyen</div>
+                    				<p class="category text-white">{{ 'intro.titulo' | translate }}</p>
+                    				<a class="btn btn-success h6 text-dark" (click)="Contact('sergioechigoyen@gmail.com', '+502 42694142', 'ti')"><i class="far fa-envelope"></i> {{ 'intro.con' | translate }}</a>
+                    				<a class="btn btn-warning h6 text-dark" href="https://github.com/SergioEGGit" target="_blank" rel="tooltip"><i class="fab fa-github"></i> Github</a>
+                    				<a class="btn btn-info h6 text-dark" href="https://www.linkedin.com/in/alexanderechigoyen/" target="_blank" rel="tooltip"><i class="fab fa-linkedin"></i> LinkedIn</a>
+					<a class="btn btn-danger h6 text-dark" [href]="ChangeCV()" target="_blank" rel="tooltip"><i class="far fa-file-pdf"></i> {{ 'intro.cv' | translate }}</a>
+
+
+
+                			</div>
+            			</div>           
+        		</div>
+    	</div>
+</div>
+
+<!------------------------------------------------------------------------- Acerca De Mí ---------------------------------------------------->
+<div class="section" id="acerca">
+    	<div class="container">
+      		<div class="card bg-primary" data-aos="fade-up" data-aos-offset="10">
+        			<div class="row">
+          				<div class="col-lg-12 col-md-12">
+            					<div class="card-body">
+              						<div class="h4 mt-0 title text-light">{{ 'aboutme.a_titulo' | translate }}</div>
+              							<p class="text-light">{{ 'aboutme.a_des1' | translate }}</p>
+							<p class="text-light">{{ 'aboutme.a_des2' | translate }}</p>          
+            					</div>
+          				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<!------------------------------------------------------------------------- Información ---------------------------------------------------------------------->
+<div class="section" id="informacion">
+    	<div class="container">
+      		<div class="card bg-warning" data-aos="fade-up" data-aos-offset="10">
+        			<div class="row">
+				<div class="col-lg-7 col-md-12">
+            					<div class="card-body">
+              						<div class="h4 mt-0 title text-dark">{{ 'infome.i_titulo' | translate }}</div>
+              						<div class="row">
+                						<div class="col-sm-4">
+                  							<strong class="text-uppercase text-dark">{{ 'infome.i_mail' | translate }}:</strong>
+                						</div>
+                						<div class="col-sm-8 text-dark">sergioechigoyen@gmail.com</div>
+              						</div>
+             					 	<div class="row mt-3">
+                						<div class="col-sm-4">
+                 				 			<strong class="text-uppercase text-dark">{{ 'infome.i_phone' | translate }}:</strong>
+                						</div>
+                						<div class="col-sm-8 text-dark">+502 42694142 o +502 66639917</div>
+             						 </div>
+              						<div class="row mt-3">
+                						<div class="col-sm-4">
+                  							<strong class="text-uppercase text-dark">{{ 'infome.i_ubi' | translate }}:</strong>
+               	 						</div>
+                						<div class="col-sm-8 text-dark">Villa Nueva, Guatemala</div>
+              						</div>
+              						<div class="row mt-4">
+                						<div class="col-sm-4">
+                  							<strong class="text-uppercase text-dark">{{ 'infome.i_idio' | translate }}:</strong>
+                						</div>
+                					<div class="col-sm-8 text-dark">{{ 'infome.i_idio_des' | translate }}</div>
+              					</div>
+            				</div>				
+          			</div>
+			<div class="col-lg-5 col-md-12">
+				<a (click)="PlayMusic('Joran')">
+					<img src="assets/profile.jpg" alt="profile" />
+				</a>
+			</div>
+        		</div>		
+      	</div>
+</div>
+
+<!--------------------------------------------------------------------------- Historial ------------------------------------------------------------------------------->
+<div class="section" id="historial">
+ 	<div class="container cc-education">
+        		<div class="h4 text-center mb-4 title"><i class="fas fa-briefcase"></i> {{ 'histo.h_titulo' | translate }}</div>
+        			<div class="colorlib-narrow-content">
+            				<div class="row">
+                				<div class="col-md-12">
+                    					<div class="timeline-centered">                        						
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                           		 					<div class="timeline-entry-inner">
+                                							<div class="timeline-icon color-5">
+                                    								<i class="fas fa-chevron-right"></i>
+                                							</div>
+                                							<div class="timeline-label">
+                                    								<h2>{{ 'histo.h_t1' | translate }}<span> {{ 'histo.h_t1_f' | translate }}</span></h2>
+                                   							 	<h4>{{ 'histo.h_t1_e' | translate }}</h4>
+                                    								<p>{{ 'histo.h_t1_des' | translate }}</p>
+                                                              						</div>
+                            							</div>
+                       						 </article>
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                           							 <div class="timeline-entry-inner">
+                               								 <div class="timeline-icon color-4">
+                                  								 <i class="fas fa-chevron-right"></i>
+                                							 </div>
+                                							<div class="timeline-label">
+                                   								 <h2>{{ 'histo.h_t2' | translate }}<span> {{ 'histo.h_t2_f' | translate }}</span></h2>
+                                    								<h4>{{ 'histo.h_t2_e' | translate }}</h4>
+                                    								<p>{{ 'histo.h_t2_des' | translate }}</p>
+                  						                                </div>
+                            							</div>
+                        						</article> 
+                        						<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                            							<div class="timeline-entry-inner">
+                                							<div class="timeline-icon color-1">
+                                  						 		<i class="fas fa-chevron-right"></i>
+                               								</div>
+                                							<div class="timeline-label">
+                                    								<h2>{{ 'histo.h_t3' | translate }}<span> {{ 'histo.h_t3_f' | translate }}</span></h2>
+                                   							 	<h4>{{ 'histo.h_t3_e' | translate }}</h4>
+                                   								<p>{{ 'histo.h_t3_des' | translate }}</p>
+                                							</div>
+                           							</div>
+                       						</article>			                      						
+                   					 </div>
+               		 			</div>
+            				</div>
+       			 </div>
+    		</div>
+</div>
+
+<!----------------------------------------------------------------------------------- Educación -------------------------------------------------------------->
+
+<div class="section" id="educacion">
+	<div class="container cc-education">
+     		<div class="h4 text-center mb-4 title">{{ 'educa.e_titulo' | translate }}
+		</div>
+        			<div class="card">
+        				<div class="row">
+          					<div class="col-md-3 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body cc-education-header">
+            				              			<div class="h5">{{ 'educa.e_s1' | translate }}</div>
+           				      			<span>{{ 'educa.e_s1_f' | translate }}</span>
+						</div>
+					</div>
+          					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body">
+              							<div class="h5">{{ 'educa.e_s1' | translate }}</div>
+               		          						<p>{{ 'educa.e_s1_des' | translate }}</p>
+						</div>
+          					</div>        					
+      				</div>
+     			</div>  	
+			<div class="card">
+        				<div class="row">
+          					<div class="col-md-3 bg-warning" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body cc-education-header">
+            				              			<div class="h5">{{ 'educa.e_s2' | translate }}</div>
+							<span>{{ 'educa.e_s2_f' | translate }}</span>
+           				      		</div>
+					</div>
+          					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body">
+              							<div class="h5">{{ 'educa.e_s2' | translate }}</div>
+               		          						<p>{{ 'educa.e_s2_des' | translate }}</p>
+						</div>
+          					</div>        					
+      				</div>
+     			</div> 	
+			<div class="card">
+        				<div class="row">
+          					<div class="col-md-3 bg-secondary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body cc-education-header">
+            				              			<div class="h5">{{ 'educa.e_s3' | translate }}</div>
+							<span>{{ 'educa.e_s3_f' | translate }}</span>
+           				      		</div>
+					</div>
+          					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            						<div class="card-body">
+              							<div class="h5">{{ 'educa.e_s3' | translate }}</div>
+               		          						<p>{{ 'educa.e_s3_des' | translate }}</p>
+						</div>
+          					</div>        					
+      				</div>
+     			</div> 
+	</div>
+</div>
+
+<!--------------------------------------------------------------------------- Habilidades ------------------------------------------------------->
+<div class="section" id="habilidades">
+   	<div class="container bg-warning">
+        		<div class="h4 text-center mb-4 title">{{ 'habi.ha_titulo' | translate }}</div>
+        			<div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            				<div class="card-body">
+               					<div class="row">
+                    					<div class="col-md-6">
+                        						<div class="progress-container progress-primary">
+                           							<span class="progress-badge">Javascript, TypeScript, HTML, CSS</span>
+                            							<div class="progress">
+                               								<div class="progress-bar progress-bar-striped" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                								<span class="progress-value">70%</span>
+                           								 </div>
+                        							</div>
+                    						</div>
+                   					<div class="col-md-6">
+                       						<div class="progress-container progress-primary">
+                            							<span class="progress-badge">Python, C++, C</span>
+                            							<div class="progress">
+                                							<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                								<span class="progress-value">80%</span>
+                            								</div>
+                       							</div>
+                    						</div>
+               						</div>
+                					<div class="row">
+                    						<div class="col-md-6">
+                        							<div class="progress-container progress-primary">
+                            								<span class="progress-badge">Angular</span>
+                            								<div class="progress">
+                                								<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                									<span class="progress-value">80%</span>
+                          				  					</div>
+                        								</div>
+                    							</div>
+                   				 		<div class="col-md-6">
+                        							<div class="progress-container progress-primary">
+                            								<span class="progress-badge">Go, JAVA, Assembly</span>
+                            								<div class="progress">
+                                								<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                									<span class="progress-value">70%</span>
+                            									</div>
+                        								</div>
+                    							</div>
+                						</div>
+                						<div class="row">
+                    							<div class="col-md-6">
+                        								<div class="progress-container progress-primary">
+                           	 								<span class="progress-badge">Mysql, MongoDB, Oracle, SQL Server, PostgresSQL</span>
+                            									<div class="progress">
+                                									<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+										</div>
+                                										<span class="progress-value">75%</span>
+                            									</div>
+                        							</div>
+                    						</div>    
+<div class="col-md-6">
+                        								<div class="progress-container progress-primary">
+                           	 								<span class="progress-badge">Unity, Android</span>
+                            									<div class="progress">
+                                									<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+										</div>
+                                										<span class="progress-value">75%</span>
+                            									</div>
+                        							</div>        
+                					</div>
+           			 		</div>
+        				</div>
+    			</div>
+</div>
+
+<!---------------------------------------------------------------------------- Referencias --------------------------------------------------------->
+<div class="section" id="referencias">
+	<div class="container cc-reference">
+          		<div class="h4 mb-4 text-center title">{{ 'refe.ref_titulo' | translate }}</div>
+          			<div class="card" data-aos="zoom-in">
+            				<div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+              					<ol class="carousel-indicators">
+                					<li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+                					<li data-target="#cc-Indicators" data-slide-to="1"></li>               
+             					 </ol>
+             					 <div class="carousel-inner">
+                					<div class="carousel-item active">
+                 						<div class="row">
+                    							<div class="col-lg-2 col-md-3 cc-reference-header">
+                      								<img src="assets/ref1.jpg" alt="Image" />
+                      								<div class="h5 pt-2">Sergio Leonel Echigoyen</div>
+									<div class="h6 pt-2">{{ 'refe.ref_r1_p' | translate }}</div>
+                      								<p class="category"></p>
+                    							</div>
+                    							<div class="col-lg-10 col-md-9">
+                    								<p>{{ 'refe.ref_r1_des' | translate }}</p>
+									<a class="btn btn-info h6 text-dark" href="https://www.linkedin.com/in/sergioechigoyen/" target="_blank" rel="tooltip"><i class="fab fa-linkedin"></i> LinkedIn</a>
+<a class="btn btn-success h6 text-dark" (click)="Contact('echigoyen@hotmail.com', '+502 56271080', 'ref')"><i class="far fa-envelope"></i> {{ 'refe.ref_con' | translate }}</a>
+                    							</div>
+                 						 </div>
+                					</div>  
+						<div class="carousel-item">
+                 						<div class="row">
+                    							<div class="col-lg-2 col-md-3 cc-reference-header">
+                      								<img src="assets/ref2.jpg" alt="Image" />
+                      								<div class="h5 pt-2">Randy Alexander Can</div>
+									<div class="h6 pt-2">{{ 'refe.ref_r2_p' | translate }}</div>
+                      								<p class="category"></p>
+                    							</div>
+                    							<div class="col-lg-10 col-md-9">
+                    								<p>{{ 'refe.ref_r2_des' | translate }}</p>
+									<a class="btn btn-warning h6 text-dark" href="https://github.com/RandyCan2000" target="_blank" rel="tooltip"><i class="fab fa-github"></i> Github</a>
+<a class="btn btn-success h6 text-dark" (click)="Contact('canalex210@gmail.com', '+502 54875373', 'ref')"><i class="far fa-envelope"></i> {{ 'refe.ref_con' | translate }}</a>
+                    							</div>
+                    							</div>
+                 						 </div>
+                					</div>                  
+              					</div>
+            				</div>
+         			</div>
+        		</div>
+     </div>
+
+<!---------------------------------------------------------------------------------- Footer ----------------------------------------------------------------------->
+<footer class="footer" style="background-image: url('assets/fondo.jpg');">
+	<div class="container text-center">
+                                <a class="btn btn-success h6 text-dark" (click)="Contact('sergioechigoyen@gmail.com', '+502 42694142', 'ti')"><i class="far fa-envelope fa-2x"></i> </a>
+      		<a class="btn btn-info" href="https://www.linkedin.com/in/alexanderechigoyen/" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+     		<a class="btn btn-warning" href="https://github.com/SergioEGGit" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+    	</div>
+    	<div class="text-center text-white">
+      		<p>&copy; {{ 'footer.fo_right' | translate }} 
+      		</p>
+    	</div>
+</footer>

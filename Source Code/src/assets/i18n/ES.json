@@ -1,0 +1,86 @@
+{
+	"header": {
+
+		"about": "Acerca De Mí!",
+     		"info": "Información",
+ 		"historial": "Historial De Trabajo",
+		"edu": "Educación",
+ 		"hab": "Habilidades",
+ 		"ref": "Referencias"
+
+	},
+	"intro": {
+		"titulo": "INGENIERO DE SISTEMAS, DESARROLLADOR FULL STACK, DISEÑADOR Y DESARROLLADOR DE VIDEOJUEGOS",
+		"con": "Contáctame",
+		"cv": "CV en PDF"
+	},
+	"aboutme": {
+
+		"a_titulo": "Acerca De Mí!",
+		"a_des1": "Hola mi nombre es Sergio Echigoyen, soy un Estudiante de Ingeniería en ciencias y sistemas, cursando el penúltimo año, con asignaturas dedicadas al manejo de bases de datos, redes de computadora, SQL, lenguajes de programación, gestión y administración de proyectos, tutorías de computación y matemática. Teniendo valores basados en el compromiso, el orden, disciplina y la eficiencia. Buscando obtener experiencia en el área laboral para poder aplicar mis conocimientos y mis aptitudes.",
+		"a_des2": "Soy una persona interesada en la tecnología, tratando de aprender constantemente cosas nuevas y estar a la vanguardia. He tenido la dicha de poder trabajar en lo que a mi me gusta y he tenido buenos maestros y compañeros que me han permitido trabajar y guiarlos, logrando así tener éxito en nuestros proyectos. He incursionado en el música creando mis propias composiciones y logrando aplicar la tecnología en el proceso."
+	
+	},
+	"infome": {
+
+		"i_titulo": "Información",
+		"i_mail": "Correo Electrónico",
+		"i_phone": "Teléfono",
+		"i_ubi": "Ubicación",
+		"i_idio": "Idiomas",
+		"i_idio_des": "Español, Ingles"
+
+	},
+	"histo": {
+
+		"h_titulo": "Historial De Trabajo",
+		"h_t1": "Técnico en hardware y software",
+		"h_t1_f": "Enero 2018 - Presente",
+		"h_t1_e": "EGTec",
+		"h_t1_des": "Mantenimiento preventivo y correctivo de equipos de cómputo. Instalación de sistemas operativos y software, capacitación sobre aplicaciones como Excel, Word, adobe, programas contables. Asesoría on line de clientes.",
+		"h_t2": "Técnico en mantenimiento de computadoras y digitador",
+		"h_t2_f": "Septiembre 2017 - Octubre 2017",
+		"h_t2_e": "Paraninfo Universitario, USAC",
+		"h_t2_des": "(Práctica Supervisada) Digitación de documentos impresos a base de datos en Excel. Capacitación de personal. Mantenimiento preventivo y correctivo de equipos de cómputo.",
+		"h_t3": "Técnico trainee en mantenimiento de computadoras",
+		"h_t3_f": "Enero 2016 - Noviembre 2017",
+		"h_t3_e": "Colegio Mixto San José La Paz",
+		"h_t3_des": "Mantenimiento del equipo de laboratorio de cómputo."
+	},
+	"educa": {
+
+		"e_titulo": "Educación",
+		"e_s1": "Universidad De San Carlos De Guatemala USAC",
+		"e_s1_f": "2018 - Presente",
+		"e_s1_des": "Cursando el 4º. Año de la carrera de ingeniería en ciencias y sistemas.",
+		"e_s2": "Colegio Mixto San José La Paz",
+		"e_s2_f": "2016 - 2017",
+		"e_s2_des": "Diploma bachiller en ciencias y letras con especialización en computación.",
+		"e_s3": "Estudios De Software",
+		"e_s3_f": "2016 - Presente",
+		"e_s3_des": "Microsoft office, Adobe family, SQL, lenguajes de programación (Java, C#, Python, C++, angular, react), Android studio, sistemas operativos (windows, linux), Unity, Arduino, Cloud Services(AWS, Google Cloud, Azure), Docker, Kubernetes, Redes de computadoras"
+	
+	},
+	"habi": {
+
+		"ha_titulo": "Habilidades"
+
+	},
+	"refe": {
+
+		"ref_titulo": "Referencias",
+		"ref_r1_p": "Administrador En EGTec",
+		"ref_r1_des": "Profesional de la ingeniería química con más de 20 años de experiencia en la industria nacional, trabajando como unidad y liderando equipos multidisciplinarios de hasta más de 100 personas, en las áreas de Producción, control de calidad, desarrollo de productos, mantenimiento y seguridad industrial. He implementado departamentos de control de calidad, procedimientos de análisis, capacitaciones y certificaciones de buenas prácticas de manufactura, trabajando juntos en EGTec.",
+		"ref_con": "Contacto",
+		"ref_r2_p": "Desarrollador frontend",
+		"ref_r2_des": "Compañero de estudios universitarios cursando la carrera de ingeniería en ciencias y sistemas en la Universidad De San Carlos, actualmentemente en el puesto de Frontend Developer, trabajando juntos en equipos scrum y en el desarrollo de un videojuego.",
+		"ref_r2_con": "Contacto"
+
+	},
+	"footer": {
+
+		"fo_right": "Todos los derechos reservados. Desarrollado por Sergio Echigoyen"
+
+	}		
+
+}
