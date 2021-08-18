@@ -1,0 +1,85 @@
+{
+	
+	"header": {
+
+		"about": "About Me!",
+     		"info": "Information",
+ 		"historial": "Work Story",
+		"edu": "Education",
+ 		"hab": "Skills",
+ 		"ref": "References"
+
+	},
+	"intro": {
+		"titulo": "SYSTEMS ENGINEER, FULL STACK DEVELOPER, VIDEO GAME DESIGNER AND DEVELOPER",
+		"con": "contact",
+		"cv": "CV in PDF"
+	},
+	"aboutme": {
+
+		"a_titulo": "About Me!",
+		"a_des1": "Hello, my name is Sergio Echigoyen, I am an Engineering student in science and systems, studying the penultimate year, with subjects dedicated to the management of databases, computer networks, SQL, programming languages, project management and administration, tutorials of computation and mathematics. Having values based on commitment, order, discipline and efficiency. Looking to obtain experience in the labor area to be able to apply my knowledge and my skills.",
+		"a_des2": "I am a person interested in technology, constantly trying to learn new things and be at the forefront. I have had the joy of being able to work in what I like and I have had good teachers and colleagues who have allowed me to work and guide them, thus achieving success in our projects. I have dabbled in music creating my own compositions and managing to apply technology in the process."
+	
+	},
+	"infome": {
+
+		"i_titulo": "Information",
+		"i_mail": "Email",
+		"i_phone": "Phone",
+		"i_ubi": "Location",
+		"i_idio": "Languages",
+		"i_idio_des": "English, Spanish"
+
+	},
+	"histo": {
+
+		"h_titulo": "Work History",
+		"h_t1": "Hardware and software technician",
+		"h_t1_f": "January 2018 - Present",
+		"h_t1_e": "EGTec",
+		"h_t1_des": "Preventive and corrective maintenance of computer equipment. Installation of operating systems and software, training on applications such as Excel, Word, Adobe, accounting programs. On-line customer advice.",
+		"h_t2": "Computer maintenance technician and typist",
+		"h_t2_f": "September 2017 - October 2017",
+		"h_t2_e": "Paraninfo Universitario, USAC",
+		"h_t2_des": "(Supervised Practice) Digitization of printed documents into an Excel database. Training of personnel. Preventive and corrective maintenance of computer equipment.",
+		"h_t3": "Trainee technician in computer maintenance",
+		"h_t3_f": "January 2016 - November 2017",
+		"h_t3_e": "San José La Paz Mixed School",
+		"h_t3_des": "Maintenance of computer laboratory equipment."
+	},
+	"educa": {
+
+		"e_titulo": "Education",
+		"e_s1": "University of San Carlos of Guatemala USAC",
+		"e_s1_f": "2018 - Present",
+		"e_s1_des": "Studying the 4th. Year of the engineering degree in science and systems.",
+		"e_s2": "San José La Paz High School",
+		"e_s2_f": "2016 - 2017",
+		"e_s2_des": "Bachelor's degree in science and letters with a specialization in computing.",
+		"e_s3": "Software Studies",
+		"e_s3_f": "2016 - Present",
+		"e_s3_des": "Microsoft office, Adobe family, SQL, programming languages (Java, C #, Python, C ++, angular, react), Android studio, operating systems (windows, linux), Unity, Arduino, Cloud Services (AWS, Google Cloud, Azure), Docker, Kubernetes, Computer networks"
+	},
+	"habi": {
+
+		"ha_titulo": "Skills"
+
+	},
+	"refe": {
+
+		"ref_titulo": "References",
+		"ref_r1_p": "Administrator In EGTec",
+		"ref_r1_des": "Chemical engineering professional with more than 20 years of experience in the national industry, working as a unit and leading multidisciplinary teams of up to more than 100 people, in the areas of Production, quality control, product development, maintenance and industrial safety. I have implemented quality control departments, analysis procedures, training and certifications of good manufacturing practices, working together in EGTec. ",
+		"ref_con": "Contact",
+		"ref_r2_p": "Frontend developer",
+		"ref_r2_des": "Partner from university studies studying science and systems engineering at Universidad De San Carlos, currently in the position of Frontend Developer, working together in scrum teams and developing a video game."
+
+	},
+	"footer": {
+
+		"fo_right": "All rights reserved. Powered By Sergio Echigoyen"
+
+	}
+
+}
