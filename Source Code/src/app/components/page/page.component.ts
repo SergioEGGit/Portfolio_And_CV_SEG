@@ -42,13 +42,13 @@ ChangeCV(): string
 	if(this.activeLang == "ES") 
 	{
 	
-		return "https://drive.google.com/file/d/1W-xG84-lvBzA786gI2Tf1rusOuszBSrE/view?usp=sharing";			
+		return "https://drive.google.com/file/d/1pLK-oWgOO7YIpRA0ue20xaAmJzz5ekh4/view?usp=sharing";			
 
 	}
  	else if(this.activeLang == "EN")
 	{
 
-		return "https://drive.google.com/file/d/1eh2nnbsv-926JzgEb_rZRYw7IhOZQenV/view?usp=sharing";	
+		return "https://drive.google.com/file/d/1W-xG84-lvBzA786gI2Tf1rusOuszBSrE/view?usp=sharing";	
 
 	}
 	else 
